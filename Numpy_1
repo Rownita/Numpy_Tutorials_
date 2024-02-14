@@ -1,0 +1,29 @@
+
+
+import numpy as np
+
+# in numpy aray , all of the elements should be same type
+
+A = np.array([[1,2,3],[4,5,6]])
+B = np.array([[7,8,9],[10,11,12]])
+
+multiplication = A * B
+
+print(multiplication)
+print(A.dtype)
+
+C = np.array([[3.5,6.7,8.9],[11.5,12.5,13.7]])
+
+print(C.dtype)
+# row1, row2, row3
+D = np.array([[2,-3,1],[2,0,-1],[1,4,5]])
+
+print(D.shape)
+
+# A 3d array is a bunch of two dimensional arrays. 2x(2X3). A bunch of 2, 2D arrays
+# 3D arrays
+V = np.array(
+    [[[1,2,3],[4,5,6]], # matrix1
+[[7,8,9],[10,11,12]]]) # matrix2
+
+print(V.ndim)
