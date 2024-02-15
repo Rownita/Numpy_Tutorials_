@@ -1,0 +1,18 @@
+
+### Numpy 
+import numpy as np
+x = np.array([1,2,3,4,5,6])
+y = x.reshape((2,3),order = "F") # filling the rows as columns
+print("The second matrix")
+z = x.reshape((3,2))
+
+a = x.reshape((2,3),order = "C") # default order
+
+print(y)
+print("The third matrix")
+print(z)
+print("The fourth matrix")
+print(a)
+print("The fifth matrix: ")
+w = x.reshape(-1,2) # -1 means as much rows as needed, 2 columns
+print(w)
