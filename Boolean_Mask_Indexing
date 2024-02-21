@@ -1,0 +1,13 @@
+import numpy as np
+
+
+x = np.array([4,5,6, 8,9]) 
+
+mask = (x%2==0)
+print(x%2==0) #printing condition, Boolean Mask values
+print(x[mask])
+### boolean mask values
+mask_2 = (x%2== 0) & (x>0)
+mask_3 = (x%3 == 0) | (x%2==0)
+print(x[mask_2])
+print(x[mask_3])
