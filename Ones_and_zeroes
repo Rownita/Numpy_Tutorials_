@@ -1,0 +1,12 @@
+import numpy as np
+
+y = np.ones((3,3), dtype = "int") #generating 3 X 3 matrix where all the elements are 1
+z = np.ones((4,4), dtype = "float")# generating 4 X 4 matrix where all the elements are 1
+print(y)
+print(z)
+
+a = np.zeros((4,4),dtype = "int")
+print(a)
+
+w = np.ones((2,4))
+print(w)
