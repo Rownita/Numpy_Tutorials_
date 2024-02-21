@@ -8,5 +8,5 @@ print(z)
 a = np.zeros((4,4),dtype = "int")
 print(a)
 
-w = np.ones((2,4))
+w = np.ones((2,4)) ### generating a 2x4 matrix where all the elements are 1
 print(w)
