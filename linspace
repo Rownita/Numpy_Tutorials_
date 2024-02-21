@@ -1,0 +1,11 @@
+import numpy as np
+
+# generating numbers between a given range linspace(start,stop,#numbers)
+
+a = np.linspace(0,1,11)
+print(a)
+
+
+## generating thousand numbers between 0 and 2*np.pi
+b = np.linspace(0,2*np.pi,1000)
+print(b)
