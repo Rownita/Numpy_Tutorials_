@@ -10,3 +10,4 @@ z = np.arange(25.5) # default step = 1
 print(x)
 print(y)
 print(z)
+ #python range() does not support float
