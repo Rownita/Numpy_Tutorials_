@@ -1,0 +1,24 @@
+
+import numpy as np
+x = np.array([50,600,10,14])
+print(x)
+
+## sorting the array
+print(np.sort(x)[::-1])
+print("Printing the minimum value")
+print(np.min(x))
+
+## printing the maximum value
+print("Printing the maximum value:")
+print(np.max(x))
+
+##printing the minimum value
+print("Printing the index of the minimum value of the array")
+print(np.argmin(x)) ### calculates the minimum value and returns the index
+
+print("Printing the index of the maximum value of the array")
+print(np.argmax(x))
+y = np.array([50,600,39,29,56.78])
+print(np.sort(y)[::-1])
+print(np.sort(y))
+print(np.argsort(x))
